@@ -1,10 +1,8 @@
-//
-//  ViewController.swift
-//  MAPD714-F2019-Lesson3
-//
-//  Created by Tom Tsiliopoulos on 2019-09-18.
-//  Copyright © 2019 CentennialCollege. All rights reserved.
-//
+// NAME:
+// STUDENTID:
+// DESCRIPTION:
+// DATE:
+// VERSION HISTORY: v1 - added functionality for buttons
 
 import UIKit
 
@@ -12,7 +10,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
 
 
