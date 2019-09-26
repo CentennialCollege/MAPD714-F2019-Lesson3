@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D1D8250F233C3704006F15EB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D8250E233C3704006F15EB /* Person.swift */; };
 		D1D82511233C3B67006F15EB /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D82510233C3B67006F15EB /* Student.swift */; };
+		D1D82517233C58AA006F15EB /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D82516233C58AA006F15EB /* Operation.swift */; };
 		E9B9D9D023330EDD00F1D3D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D9CF23330EDD00F1D3D7 /* AppDelegate.swift */; };
 		E9B9D9D223330EDD00F1D3D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B9D9D123330EDD00F1D3D7 /* ViewController.swift */; };
 		E9B9D9D523330EDD00F1D3D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B9D9D323330EDD00F1D3D7 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		D1D8250E233C3704006F15EB /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		D1D82510233C3B67006F15EB /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		D1D82516233C58AA006F15EB /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		E9B9D9CC23330EDD00F1D3D7 /* MAPD714-F2019-Lesson3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-F2019-Lesson3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B9D9CF23330EDD00F1D3D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9B9D9D123330EDD00F1D3D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				E9B9D9DB23330EDE00F1D3D7 /* Info.plist */,
 				D1D8250E233C3704006F15EB /* Person.swift */,
 				D1D82510233C3B67006F15EB /* Student.swift */,
+				D1D82516233C58AA006F15EB /* Operation.swift */,
 			);
 			path = "MAPD714-F2019-Lesson3";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				D1D8250F233C3704006F15EB /* Person.swift in Sources */,
 				E9B9D9D223330EDD00F1D3D7 /* ViewController.swift in Sources */,
 				E9B9D9D023330EDD00F1D3D7 /* AppDelegate.swift in Sources */,
+				D1D82517233C58AA006F15EB /* Operation.swift in Sources */,
 				D1D82511233C3B67006F15EB /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

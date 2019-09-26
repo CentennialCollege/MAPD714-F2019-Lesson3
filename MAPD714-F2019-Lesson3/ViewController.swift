@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     // Private Instance Variables
     private var m_operand = "0"
     private var m_currentValue: Double = 0.0
+    private var m_currentOperation = Operation.none
 
     // Outlets
     @IBOutlet weak var resultLabel: UILabel!
@@ -39,6 +40,7 @@ class ViewController: UIViewController {
             }
             break
         case "+":
+            m_currentOperation = Operation.add
             m_currentValue += Double(m_operand) as! Double
             m_operand = "0"
             resultLabel.text = String(m_currentValue)
@@ -68,11 +70,32 @@ class ViewController: UIViewController {
         case "+/-":
             break
         default:
+            
+            
             if(m_operand == "0")
             {
                 m_operand = ""
             }
             m_operand += calculatorButton!
+            
+            if(m_currentOperation != Operation.none)
+            {
+                switch(m_currentOperation)
+                {
+                case .add:
+                    break
+                case .subtract:
+                    break
+                case .multiply:
+                    break
+                case .divide:
+                    break
+                default:
+                    break
+                    
+                }
+            }
+            
             resultLabel.text = m_operand
         }
         
