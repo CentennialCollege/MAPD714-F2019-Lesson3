@@ -1,0 +1,4 @@
+protocol IsInternational {
+    
+    func RequiresStudentPermit() 
+}

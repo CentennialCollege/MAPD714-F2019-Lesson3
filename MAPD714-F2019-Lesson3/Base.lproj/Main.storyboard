@@ -31,9 +31,12 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0Z-Pp-Teh">
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                                <state key="normal" title="Clear" backgroundImage="darkButton">
+                                                <state key="normal" title="AC" backgroundImage="darkButton">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DBp-we-ftG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtN-3c-jpV">
                                                 <rect key="frame" x="103" y="0.0" width="75" height="75"/>
@@ -41,20 +44,29 @@
                                                 <state key="normal" title="+/-" backgroundImage="darkButton">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EYa-ZQ-kf8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydR-y4-Zf9">
                                                 <rect key="frame" x="206" y="0.0" width="75" height="75"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                                <state key="normal" title="%" backgroundImage="darkButton">
+                                                <state key="normal" title="⇦" backgroundImage="darkButton">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FIv-l3-uhx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdh-b7-XTQ">
                                                 <rect key="frame" x="309" y="0.0" width="75" height="75"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                                <state key="normal" title="/" backgroundImage="OrangeButton">
-                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                                <state key="normal" title="÷" backgroundImage="OrangeButton">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ima-sv-7ij"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -67,6 +79,9 @@
                                                 <state key="normal" title="7" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rto-LJ-Ns2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ed0-uK-hA4">
                                                 <rect key="frame" x="103" y="0.0" width="75" height="75"/>
@@ -74,6 +89,9 @@
                                                 <state key="normal" title="8" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="890-sT-XGW"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iya-n6-u06">
                                                 <rect key="frame" x="206" y="0.0" width="75" height="75"/>
@@ -81,6 +99,9 @@
                                                 <state key="normal" title="9" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Wb-OT-3pB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOc-KO-gfw">
                                                 <rect key="frame" x="309" y="0.0" width="75" height="75"/>
@@ -88,6 +109,9 @@
                                                 <state key="normal" title="x" backgroundImage="OrangeButton">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lWN-R1-rZs"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -100,6 +124,9 @@
                                                 <state key="normal" title="4" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xBA-Ou-yFZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srS-x3-pGA">
                                                 <rect key="frame" x="103" y="0.0" width="75" height="75"/>
@@ -107,6 +134,9 @@
                                                 <state key="normal" title="5" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3JZ-ed-ock"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfW-yw-7ht">
                                                 <rect key="frame" x="206" y="0.0" width="75" height="75"/>
@@ -114,6 +144,9 @@
                                                 <state key="normal" title="6" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c1y-Pe-Gz9"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7f-NP-6MW">
                                                 <rect key="frame" x="309" y="0.0" width="75" height="75"/>
@@ -121,6 +154,9 @@
                                                 <state key="normal" title="-" backgroundImage="OrangeButton">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CvB-49-XXf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -133,6 +169,9 @@
                                                 <state key="normal" title="1" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gtD-4s-o56"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXf-2V-frl">
                                                 <rect key="frame" x="103" y="0.0" width="75" height="75"/>
@@ -140,6 +179,9 @@
                                                 <state key="normal" title="2" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jQG-ag-KHO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkg-0H-DpD">
                                                 <rect key="frame" x="206" y="0.0" width="75" height="75"/>
@@ -147,6 +189,9 @@
                                                 <state key="normal" title="3" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gOh-dC-gC7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgL-w4-TOw">
                                                 <rect key="frame" x="309" y="0.0" width="75" height="75"/>
@@ -154,6 +199,9 @@
                                                 <state key="normal" title="+" backgroundImage="OrangeButton">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fbg-wd-du8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -166,6 +214,9 @@
                                                 <state key="normal" title="0" backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hqg-EB-PO7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YmX-CG-sR7">
                                                 <rect key="frame" x="103" y="0.0" width="75" height="75"/>
@@ -180,6 +231,9 @@
                                                 <state key="normal" title="." backgroundImage="Button">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9BQ-iZ-jhh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ja-Es-U5N">
                                                 <rect key="frame" x="309" y="0.0" width="75" height="75"/>
@@ -187,6 +241,9 @@
                                                 <state key="normal" title="=" backgroundImage="OrangeButton">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="CalculatorButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZoZ-my-ZYC"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -260,6 +317,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="JHr-YG-pYx" id="xda-Tg-vJM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
